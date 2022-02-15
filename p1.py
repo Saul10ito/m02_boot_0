@@ -1,7 +1,20 @@
 def sumaTodos (limitTo):
-    for 1 in range (o, limitTo+1):
+    resultado = 0
+    for i in range (0, limitTo+1):
         resultado +=1
         
     return resultado
 
+
+
+
+def sumaTodosCuadrados(limiTo):
+    resultado = 0
+    for i in range(limitTo+1):
+        resultado += i*i
+        
+    return resultado
+
 print (sumaTodos(100))
+print (sumaTodos(3))
+
